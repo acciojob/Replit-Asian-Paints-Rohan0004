@@ -1,12 +1,15 @@
 /*  your css code here. If applicable */
-#grid-container {
+.grid-container {
             display: grid; 
             grid-template-columns: repeat(3, 1fr);            
             gap: 10px; 
             width: 320px; 
             margin: 0 auto;
         }
-#grid-container div {
+.grid-container div {
             background-color: red;             
             color: black;
+	border : 2px solid black;
+	min-width: 50px;
+	min-height: 50px;
         }
